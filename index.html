@@ -124,7 +124,7 @@
               {"miftychu".split('').map((char, index) => (
                 <span 
                   key={index} 
-                  className={`bg-gradient-to-br from-[#E8669E] to-[#5C90B8] bg-clip-text text-transparent drop-shadow-sm inline-block animate-text-wave pb-2 ${char === ' ' ? 'w-2.5' : 'pr-[1.5px]'}`} 
+                  className={`bg-gradient-to-br from-[#FFB5D7] to-[#FFC4E3] bg-clip-text text-transparent drop-shadow-sm inline-block animate-text-wave pb-2 ${char === ' ' ? 'w-2.5' : 'pr-[1.5px]'}`} 
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   {char}
@@ -200,7 +200,7 @@
               </g>
             </svg>
           </div>
-          <div className="mt-1 flex items-center gap-1 px-2 py-0.5 rounded-full z-10" style={{ backgroundColor: COLORS.palePurple, borderWidth: '1px', borderColor: COLORS.white }}>
+          <div className="-mt-1 flex items-center gap-1 px-2 py-0.5 rounded-full z-10" style={{ backgroundColor: COLORS.palePurple, borderWidth: '1px', borderColor: COLORS.white }}>
             <span className="text-xs font-black" style={{ color: COLORS.textMain }}>{progress}%</span>
             <div className="w-1 h-1 rounded-full bg-[#ffffff]"></div>
             <span className="text-[8px] font-bold text-gray-500 uppercase">{doneToday} / {todayTasksLength} งาน</span>
@@ -947,3 +947,4 @@
   </script>
 </body>
 </html>
+
